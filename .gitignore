@@ -1,0 +1,8 @@
+cache/
+out/
+
+
+
+# Dotenv file
+.env
+
