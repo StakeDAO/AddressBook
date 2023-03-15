@@ -104,6 +104,10 @@ library AddressBook {
     address public constant GAUGE_SDFXS = 0xF3C6e8fbB946260e8c2a55d48a5e01C82fD63106;
     address public constant FXS_DEPOSITOR = 0xFaF3740167B866b571465B063c6B3A71Ba9b6285;
     address public constant FXS_ACCUMULATOR = 0xF980B8A714Ce0cCB049f2890494b068CeC715c3f;
+    address public constant FRAX_STRATEGY = 0xf285Dec3217E779353350443fC276c07D05917c3;
+    address public constant FXS_POOL_REGISTRY = 0xd4525E29111edD74eAA425AB4c0Bc507bE3aC69F;
+    address public constant FXS_BOOSTER = 0x3f7c5021f5Bc634fae82cf9F67F19C5f05562bD3;
+    address public constant FXS_FEE_REGISTRY = 0x0f1dc3Bd5fE8a3034d6Df0A411Efc7916830d19c;
 
     /* --- YEARN --- */
     address public constant SD_YFI = 0x97983236bE88107Cc8998733Ef73D8d969c52E37;
