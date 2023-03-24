@@ -3,9 +3,15 @@ pragma solidity ^0.8.7;
 
 library AddressBook {
     ////////////////////////////////////////////////////////////////
+    /// --- PERIOD
+    ///////////////////////////////////////////////////////////////
+    uint256 public constant DAY = 86_400;
+    uint256 public constant WEEK = 604_800;
+    uint256 public constant YEAR = 31_536_000;
+
+    ////////////////////////////////////////////////////////////////
     /// --- COMMONS
     ///////////////////////////////////////////////////////////////
-
     address public constant ZERO_ADDRESS = address(0);
 
     /* --- STABLECOINS --- */
@@ -201,12 +207,15 @@ library AddressBook {
     /// --- FRAX PROTOCOL
     ///////////////////////////////////////////////////////////////
     address public constant FXS = 0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0;
+    address public constant FPIS = 0xc2544A32872A91F4A553b404C6950e89De901fdb;
     address public constant VE_FXS = 0xc8418aF6358FFddA74e09Ca9CC3Fe03Ca6aDC5b0;
+    address public constant VE_FPIS = 0x574C154C83432B0A45BA3ad2429C3fA242eD7359;
     address public constant FXS_WHALE = 0x322a3fB2f628085749e5F1151AA9A32Eb50D3519;
 
     address public constant FRAX = 0x853d955aCEf822Db058eb8505911ED77F175b99e;
     address public constant FRAX_GAUGE_CONTROLLER = 0x44ade9AA409B0C29463fF7fcf07c9d3c939166ce;
     address public constant FRAX_YIELD_DISTRIBUTOR = 0xc6764e58b36e26b08Fd1d2AeD4538c02171fA872;
+    address public constant FPIS_YIELD_DISTRIBUTOR = 0xE6D31C144BA99Af564bE7E81261f7bD951b802F6;
     address public constant FRAX_SMART_WALLET_CHECKER = 0x53c13BA8834a1567474b19822aAD85c6F90D9f9F;
 
     ////////////////////////////////////////////////////////////////
