@@ -115,6 +115,13 @@ library AddressBook {
     address public constant FXS_BOOSTER = 0x3f7c5021f5Bc634fae82cf9F67F19C5f05562bD3;
     address public constant FXS_FEE_REGISTRY = 0x0f1dc3Bd5fE8a3034d6Df0A411Efc7916830d19c;
 
+    /* --- FPIS --- */
+    address public constant SD_FPIS = 0x334cB66050049c1E392007B018321c44A1dbFaC4;
+    address public constant FPIS_LOCKER = 0x1ce5181124c33Abc281BF0F07eF4fB8573556aA5;
+    address public constant GAUGE_SDFPIS = 0xE58101D3848E12dAD6d7B5981dC11411bb267D2f;
+    address public constant FPIS_DEPOSITOR = 0x56D27f6BA42Ec4C4E37dae0561e8E872ABb196Ad;
+    address public constant FPIS_ACCUMULATOR = 0x0CA369A70AD74E52604abC63792ABbE088A9F460;
+
     /* --- YEARN --- */
     address public constant SD_YFI = 0x97983236bE88107Cc8998733Ef73D8d969c52E37;
     address public constant YFI_LOCKER = 0xF750162fD81F9a436d74d737EF6eE8FC08e98220;
