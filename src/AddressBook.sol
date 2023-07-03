@@ -134,6 +134,7 @@ library AddressBook {
     address public constant PENDLE_LOCKER = 0xD8fa8dC5aDeC503AcC5e026a98F32Ca5C1Fa289A;
     address public constant GAUGE_SDPENDLE = 0x50DC9aE51f78C593d4138263da7088A973b8184E;
     address public constant PENDLE_DEPOSITOR = 0xf7F64f63ec693C6a3A79fCe4b222Bca2595cAcEf;
+    address public constant VE_SDT_PENDLE_FEE_PROXY = 0x12992595328E52267c95e45B1a97014D6Ddf8683;
 
     /* --- POOLS sdTOKEN/TOKEN --- */
     address public constant POOL_ANGLE_SDANGLE = 0x48fF31bBbD8Ab553Ebe7cBD84e1eA3dBa8f54957; // On Curve
