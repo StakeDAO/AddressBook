@@ -228,7 +228,16 @@ library AddressBook {
     ////////////////////////////////////////////////////////////////
     /// --- YEARN FINANCE
     ///////////////////////////////////////////////////////////////
+
     address public constant YFI = 0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e;
     address public constant VE_YFI = 0x90c1f9220d90d3966FbeE24045EDd73E1d588aD5;
     address public constant YFI_REWARD_POOL = 0xb287a1964AEE422911c7b8409f5E5A273c1412fA;
+
+    ////////////////////////////////////////////////////////////////
+    /// --- PENDLE
+    ///////////////////////////////////////////////////////////////
+
+    address public constant PENDLE = 0x808507121B80c02388fAd14726482e061B8da827;
+    address public constant VE_PENDLE = 0x4f30A9D41B80ecC5B94306AB4364951AE3170210;
+    address public constant PENDLE_FEE_DISTRIBUTOR = 0xd7b34a6fDCb2A7ceD2115FF7f5fdD72aa6aA4dE2;
 }
