@@ -136,6 +136,13 @@ library AddressBook {
     address public constant PENDLE_DEPOSITOR = 0xf7F64f63ec693C6a3A79fCe4b222Bca2595cAcEf;
     address public constant VE_SDT_PENDLE_FEE_PROXY = 0x12992595328E52267c95e45B1a97014D6Ddf8683;
 
+
+    /* --- MAV --- */
+    address public constant SD_MAV = 0x2131197Fc08623c971916E076aF4ea3c0f42E209;
+    address public constant MAV_LOCKER = 0xdBD6170396ECE3DCd51195950A2dF7F7635F9e38;
+    address public constant GAUGE_MAV = 0xdE65a189EbF9B698a935E13cD58c3E7CEABe9375;
+    address public constant MAV_DEPOSITOR = 0x3Ac34fe88E434812ddC4A29Caa8234328983a13C;
+
     /* --- POOLS sdTOKEN/TOKEN --- */
     address public constant POOL_ANGLE_SDANGLE = 0x48fF31bBbD8Ab553Ebe7cBD84e1eA3dBa8f54957; // On Curve
     address public constant POOL_APW_SDAPW = 0x6788f608CfE5CfCD02e6152eC79505341E0774be; // On Curve
