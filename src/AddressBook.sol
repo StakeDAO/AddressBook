@@ -39,7 +39,7 @@ library AddressBook {
     /// --- STAKE DAO MAIN ADDRESSES
     ///////////////////////////////////////////////////////////////
     /* --- DAO --- */
-    address public constant STAKE_DAO_MULTISIG = 0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0;
+    address public constant STAKE_DAO_MULTISIG = 0xF930EBBd05eF8b25B1797b9b2109DDC9B0d43063;
     address public constant SDT_SMART_WALLET_CHECKER = 0x37E8386602d9EBEa2c56dd11d8E142290595f1b5;
 
     /* --- DEPLOYERS --- */
@@ -261,4 +261,14 @@ library AddressBook {
 
     address public constant MAV = 0x7448c7456a97769F6cD04F1E83A4a23cCdC46aBD;
     address public constant VE_MAV = 0x4949Ac21d5b2A0cCd303C20425eeb29DCcba66D8;
+
+    ////////////////////////////////////////////////////////////////
+    /// --- F(X) PROTOCOL
+    ///////////////////////////////////////////////////////////////
+
+    address public constant FXN = 0x365AccFCa291e7D3914637ABf1F7635dB165Bb09;
+    address public constant VE_FXN = 0xEC6B8A3F3605B083F7044C0F31f2cac0caf1d469;
+    address public constant FXN_FEE_DISTRIBUTOR = 0x851AAEA3A2757D457E1Ce88C3808C1690213e432;
+    address public constant FXN_GAUGE_CONTROLLER = 0xe60eB8098B34eD775ac44B1ddE864e098C6d7f37;
+    address public constant FXN_SMART_WALLET_CHECKER = 0xD71B8B76015F296E53D41e8288a8a13eAfFff2ea;
 }
