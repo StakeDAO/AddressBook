@@ -127,7 +127,7 @@ library AddressBook {
     address public constant YFI_LOCKER = 0xF750162fD81F9a436d74d737EF6eE8FC08e98220;
     address public constant GAUGE_SDYFI = 0x5AdF559f5D24aaCbE4FA3A3a4f44Fdc7431E6b52;
     address public constant YFI_DEPOSITOR = 0x941E716833734C7CaFafC38F6bb8FEc1858201E0;
-    address public constant YFI_ACCUMULATOR = 0x8b65438178CD4EF67b0177135dE84Fe7E3C30ec3;
+    address public constant YFI_ACCUMULATOR = 0x3046E983B0c5a5359D3b0756ADa0dB20026D1cFc;
 
     /* --- PENDLE --- */
     address public constant SD_PENDLE = 0x5Ea630e00D6eE438d3deA1556A110359ACdc10A9;
@@ -161,6 +161,9 @@ library AddressBook {
 
     /* --- CURVE --- */
     address public constant CURVE_STRATEGY = 0x20F1d4Fed24073a9b9d388AfA2735Ac91f079ED6;
+
+    /* --- YEARN --- */
+    address public constant YEARN_STRATEGY = 0x1be150a35bb8233d092747eBFDc75FB357c35168;
 
     ////////////////////////////////////////////////////////////////
     /// --- ANGLE PROTOCOL
@@ -244,8 +247,10 @@ library AddressBook {
     ///////////////////////////////////////////////////////////////
 
     address public constant YFI = 0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e;
+    address public constant DYFI = 0x41252E8691e964f7DE35156B68493bAb6797a275;
     address public constant VE_YFI = 0x90c1f9220d90d3966FbeE24045EDd73E1d588aD5;
     address public constant YFI_REWARD_POOL = 0xb287a1964AEE422911c7b8409f5E5A273c1412fA;
+    address public constant DYFI_REWARD_POOL = 0x2391Fc8f5E417526338F5aa3968b1851C16D894E;
 
     ////////////////////////////////////////////////////////////////
     /// --- PENDLE
@@ -254,13 +259,18 @@ library AddressBook {
     address public constant PENDLE = 0x808507121B80c02388fAd14726482e061B8da827;
     address public constant VE_PENDLE = 0x4f30A9D41B80ecC5B94306AB4364951AE3170210;
     address public constant PENDLE_FEE_DISTRIBUTOR = 0xd7b34a6fDCb2A7ceD2115FF7f5fdD72aa6aA4dE2;
+    address public constant PENDLE_FEE_DISTRIBUTOR_NEW = 0x8C237520a8E14D658170A633D96F8e80764433b9;
 
     ////////////////////////////////////////////////////////////////
     /// --- MAV
     ///////////////////////////////////////////////////////////////
 
     address public constant MAV = 0x7448c7456a97769F6cD04F1E83A4a23cCdC46aBD;
+    address public constant MAV_BASE = 0x64b88c73A5DfA78D1713fE1b4c69a22d7E0faAa7;
+    address public constant MAV_BNB = 0xd691d9a68C887BDF34DA8c36f63487333ACfD103;
     address public constant VE_MAV = 0x4949Ac21d5b2A0cCd303C20425eeb29DCcba66D8;
+    address public constant VE_MAV_BASE = 0xFcCB5263148fbF11d58433aF6FeeFF0Cc49E0EA5;
+    address public constant VE_MAV_BNB = 0xE6108f1869d37E5076a56168C66A1607EdB10819;
 
     ////////////////////////////////////////////////////////////////
     /// --- F(X) PROTOCOL
