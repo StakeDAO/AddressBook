@@ -143,6 +143,12 @@ library AddressBook {
     address public constant GAUGE_MAV = 0xdE65a189EbF9B698a935E13cD58c3E7CEABe9375;
     address public constant MAV_DEPOSITOR = 0x3Ac34fe88E434812ddC4A29Caa8234328983a13C;
 
+    /* --- PANCAKESWAP --- */
+    address public constant SD_CAKE = 0xF79B275e0B602D82B822895074552e487412A41a;
+    address public constant CAKE_LOCKER = 0x1E6F87A9ddF744aF31157d8DaA1e3025648d042d;
+    address public constant GAUGE_SDCAKE = 0x0735f098C80Dd0cb39118b595d46CcD67b68672d;
+    address public constant CAKE_DEPOSITOR = 0x4ad5a81234533E2881022F8fB29aA07A6Ed908E6;
+
     /* --- POOLS sdTOKEN/TOKEN --- */
     address public constant POOL_ANGLE_SDANGLE = 0x48fF31bBbD8Ab553Ebe7cBD84e1eA3dBa8f54957; // On Curve
     address public constant POOL_APW_SDAPW = 0x6788f608CfE5CfCD02e6152eC79505341E0774be; // On Curve
@@ -281,4 +287,12 @@ library AddressBook {
     address public constant FXN_FEE_DISTRIBUTOR = 0x851AAEA3A2757D457E1Ce88C3808C1690213e432;
     address public constant FXN_GAUGE_CONTROLLER = 0xe60eB8098B34eD775ac44B1ddE864e098C6d7f37;
     address public constant FXN_SMART_WALLET_CHECKER = 0xD71B8B76015F296E53D41e8288a8a13eAfFff2ea;
+
+    ////////////////////////////////////////////////////////////////
+    /// --- PANCAKESWAP PROTOCOL
+    ///////////////////////////////////////////////////////////////
+
+    address public constant CAKE = 0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82;
+    address public constant VE_CAKE = 0x5692DB8177a81A6c6afc8084C2976C9933EC1bAB;
+    address public constant CAKE_GAUGE_CONTROLLER = 0xf81953dC234cdEf1D6D0d3ef61b232C6bCbF9aeF;
 }
