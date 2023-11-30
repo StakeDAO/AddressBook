@@ -144,10 +144,10 @@ library AddressBook {
     address public constant MAV_DEPOSITOR = 0x3Ac34fe88E434812ddC4A29Caa8234328983a13C;
 
     /* --- PANCAKESWAP --- */
-    address public constant SD_CAKE = 0xF79B275e0B602D82B822895074552e487412A41a;
+    address public constant SD_CAKE = 0x6a1c1447F97B27dA23dC52802F5f1435b5aC821A;
     address public constant CAKE_LOCKER = 0x1E6F87A9ddF744aF31157d8DaA1e3025648d042d;
-    address public constant GAUGE_SDCAKE = 0x0735f098C80Dd0cb39118b595d46CcD67b68672d;
-    address public constant CAKE_DEPOSITOR = 0x4ad5a81234533E2881022F8fB29aA07A6Ed908E6;
+    address public constant GAUGE_SDCAKE = 0xE2496134149e6CD3f3A577C2B08A6f54fC23e6e4;
+    address public constant CAKE_DEPOSITOR = 0x32ee46755AE81ce917392ed1fB21f74a8104515B;
 
     /* --- POOLS sdTOKEN/TOKEN --- */
     address public constant POOL_ANGLE_SDANGLE = 0x48fF31bBbD8Ab553Ebe7cBD84e1eA3dBa8f54957; // On Curve
